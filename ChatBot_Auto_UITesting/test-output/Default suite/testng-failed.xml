@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.Abzooba.chatbot.util.ExcelReader"/>
+      <class name="com.Abzooba.chatbot.testscripts.TC_0001"/>
+      <class name="ChatBot_Auto_UITesting.ChatBot_Auto_UITesting.AppTest"/>
+      <class name="com.Abzooba.chatbot.testscripts.TC_0004"/>
+      <class name="com.Abzooba.chatbot.core.TestCore"/>
+      <class name="com.Abzooba.chatbot.testscripts.TC_0003"/>
+      <class name="ChatBot_Auto_UITesting.ChatBot_Auto_UITesting.App"/>
+      <class name="com.Abzooba.chatbot.testscripts.TC_0002"/>
+      <class name="com.Abzooba.chatbot.FunctionLibrary.Keywords"/>
+      <class name="com.Abzooba.chatbot.util.TestUtil"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.Abzooba.chatbot.testscripts.TC_0004">
+        <methods>
+          <include name="isSkip"/>
+          <include name="verifySearchForAnItem" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.Abzooba.chatbot.testscripts.TC_0004 -->
+      <class name="com.Abzooba.chatbot.testscripts.TC_0003">
+        <methods>
+          <include name="verifyChatBotFlow" invocation-numbers="0"/>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- com.Abzooba.chatbot.testscripts.TC_0003 -->
+      <class name="com.Abzooba.chatbot.testscripts.TC_0002">
+        <methods>
+          <include name="isSkip"/>
+          <include name="doLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.Abzooba.chatbot.testscripts.TC_0002 -->
+      <class name="com.Abzooba.chatbot.testscripts.TC_0001">
+        <methods>
+          <include name="init"/>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- com.Abzooba.chatbot.testscripts.TC_0001 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

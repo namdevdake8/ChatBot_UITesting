@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Messenger]">
+  <test name="Launched_Messenger">
+    <classes>
+      <class name="com.Abzooba.chatbot.testscripts.TC_0001"/>
+    </classes>
+  </test> <!-- Launched_Messenger -->
+  <test name="Login_into_Messenger">
+    <classes>
+      <class name="com.Abzooba.chatbot.testscripts.TC_0002"/>
+    </classes>
+  </test> <!-- Login_into_Messenger -->
+  <test name="Verify_ChatBot_Flow">
+    <classes>
+      <class name="com.Abzooba.chatbot.testscripts.TC_0003"/>
+    </classes>
+  </test> <!-- Verify_ChatBot_Flow -->
+  <test name="verifySearchForAnItem">
+    <classes>
+      <class name="com.Abzooba.chatbot.testscripts.TC_0004"/>
+    </classes>
+  </test> <!-- verifySearchForAnItem -->
+  <test name="Verify_ChatBot_Flow(failed)">
+    <classes>
+      <class name="com.Abzooba.chatbot.testscripts.TC_0002">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- com.Abzooba.chatbot.testscripts.TC_0002 -->
+      <class name="com.Abzooba.chatbot.testscripts.TC_0003">
+        <methods>
+          <include name="verifyChatBotFlow" invocation-numbers="0"/>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- com.Abzooba.chatbot.testscripts.TC_0003 -->
+      <class name="com.Abzooba.chatbot.testscripts.TC_0004">
+        <methods>
+          <include name="isSkip"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.Abzooba.chatbot.testscripts.TC_0004 -->
+      <class name="com.Abzooba.chatbot.testscripts.TC_0001">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- com.Abzooba.chatbot.testscripts.TC_0001 -->
+    </classes>
+  </test> <!-- Verify_ChatBot_Flow(failed) -->
+  <test name="verifySearchForAnItem(failed)">
+    <classes>
+      <class name="com.Abzooba.chatbot.testscripts.TC_0002">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- com.Abzooba.chatbot.testscripts.TC_0002 -->
+      <class name="com.Abzooba.chatbot.testscripts.TC_0003">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- com.Abzooba.chatbot.testscripts.TC_0003 -->
+      <class name="com.Abzooba.chatbot.testscripts.TC_0004">
+        <methods>
+          <include name="isSkip"/>
+          <include name="init"/>
+          <include name="verifySearchForAnItem" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.Abzooba.chatbot.testscripts.TC_0004 -->
+      <class name="com.Abzooba.chatbot.testscripts.TC_0001">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- com.Abzooba.chatbot.testscripts.TC_0001 -->
+    </classes>
+  </test> <!-- verifySearchForAnItem(failed) -->
+</suite> <!-- Failed suite [Messenger] -->

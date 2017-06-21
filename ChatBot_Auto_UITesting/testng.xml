@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Messenger">
+     
+<test name="Launched_Messenger">
+    <classes>
+        <class name="com.Abzooba.chatbot.testscripts.TC_0001" ></class>  
+    </classes>
+</test>
+<test name="Login_into_Messenger">
+    <classes>
+        <class name="com.Abzooba.chatbot.testscripts.TC_0002" ></class>  
+    </classes>
+</test>
+<test name="Verify_ChatBot_Flow">
+    <classes>
+        <class name="com.Abzooba.chatbot.testscripts.TC_0003" ></class>  
+    </classes>
+</test>
+<test name="verifySearchForAnItem">
+    <classes>
+        <class name="com.Abzooba.chatbot.testscripts.TC_0004" ></class>  
+    </classes>
+</test>
+</suite>
